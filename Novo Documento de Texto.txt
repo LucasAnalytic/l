@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Inteligência Artificial para Iniciantes</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aqui você pode adicionar um arquivo CSS para estilização -->
+</head>
+<body>
+    <!-- Cabeçalho do Site -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre o Curso</a></li>
+                <li><a href="#testemunhos">Depoimentos</a></li>
+                <li><a href="#compra">Comprar Agora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção: Início -->
+    <section id="home" class="hero">
+        <h1>Domine a Inteligência Artificial e Transforme Seu Futuro!</h1>
+        <p>Aprenda a usar IA para revolucionar seus negócios e sua carreira com nosso curso exclusivo.</p>
+        <a href="#compra" class="cta-button">Inscreva-se Agora</a>
+    </section>
+
+    <!-- Seção: Sobre o Curso -->
+    <section id="sobre" class="course-details">
+        <h2>O Que Você Vai Aprender</h2>
+        <p>Este curso abrangente vai ensinar desde o básico da IA até como aplicar as ferramentas mais avançadas em seu dia a dia.</p>
+        <ul>
+            <li>Introdução à Inteligência Artificial</li>
+            <li>Ferramentas de IA na Web</li>
+            <li>Automação de Processos com IA</li>
+            <li>Como Criar Projetos Práticos Usando IA</li>
+            <li>Como Integrar IA em Seu Negócio</li>
+        </ul>
+    </section>
+
+    <!-- Seção: Depoimentos -->
+    <section id="testemunhos" class="testimonials">
+        <h2>O Que Nossos Alunos Estão Dizendo</h2>
+        <div class="testimonial">
+            <p>"Este curso mudou minha maneira de ver a IA. Agora, consigo integrar soluções inteligentes ao meu trabalho diário!"</p>
+            <p>- João Silva, Empreendedor</p>
+        </div>
+        <div class="testimonial">
+            <p>"Aprender sobre IA foi uma revolução para minha empresa. As técnicas que aprendi me ajudaram a economizar tempo e aumentar a produtividade!"</p>
+            <p>- Maria Oliveira, Empresária</p>
+        </div>
+    </section>
+
+    <!-- Seção: Inscrição -->
+    <section id="compra" class="purchase">
+        <h2>Inscreva-se Agora e Comece a Aprender!</h2>
+        <p>Não perca a chance de transformar seu futuro com o poder da Inteligência Artificial. Inscreva-se agora e tenha acesso imediato ao conteúdo do curso!</p>
+        
+        <!-- Formulário de Inscrição e Pagamento -->
+        <form action="processar_pagamento.php" method="POST">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="cartao">Informações de Pagamento:</label>
+            <input type="text" id="cartao" name="cartao" placeholder="Número do Cartão" required>
+            
+            <button type="submit">Comprar Agora</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Curso de Inteligência Artificial. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#compra">Comprar</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
